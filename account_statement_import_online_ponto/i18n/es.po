@@ -1,0 +1,100 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_statement_import_online_ponto
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-11 15:18+0000\n"
+"PO-Revision-Date: 2022-10-13 06:46+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: account_statement_import_online_ponto
+#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#, python-format
+msgid ""
+"Error during Create Synchronisation {} \n"
+"\n"
+" {}"
+msgstr ""
+"Error durante la creación de sincronización {} \n"
+"\n"
+"{}"
+
+#. module: account_statement_import_online_ponto
+#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#, python-format
+msgid ""
+"Error during get transaction.\n"
+"\n"
+"{} \n"
+"\n"
+" {}"
+msgstr ""
+"Error durante la transacción de obtención.\n"
+"\n"
+"{} \n"
+"\n"
+" {}"
+
+#. module: account_statement_import_online_ponto
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_ponto.online_bank_statement_provider_form
+msgid "Login"
+msgstr "Login (Client Id)"
+
+#. module: account_statement_import_online_ponto
+#: model:ir.model,name:account_statement_import_online_ponto.model_online_bank_statement_provider
+msgid "Online Bank Statement Provider"
+msgstr "Proveedor de extractos bancarios en línea"
+
+#. module: account_statement_import_online_ponto
+#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#, python-format
+msgid "Please fill login and key."
+msgstr "Por favor, rellena el nombre de usuario y la clave."
+
+#. module: account_statement_import_online_ponto
+#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#, python-format
+msgid "Ponto : no token"
+msgstr "Ponto : No existe token"
+
+#. module: account_statement_import_online_ponto
+#: code:addons/account_statement_import_online_ponto/models/online_bank_statement_provider_ponto.py:0
+#, fuzzy, python-format
+msgid "Ponto : wrong configuration, unknow account %s"
+msgstr "Ponto: configuración incorrecta, cuenta desconocida %s"
+
+#. module: account_statement_import_online_ponto
+#: model:ir.model.fields,field_description:account_statement_import_online_ponto.field_online_bank_statement_provider__ponto_last_identifier
+#, fuzzy
+msgid "Ponto Last Identifier"
+msgstr "Ponto Último Identificador"
+
+#. module: account_statement_import_online_ponto
+#: model:ir.model.fields,field_description:account_statement_import_online_ponto.field_online_bank_statement_provider__ponto_token
+msgid "Ponto Token"
+msgstr "Token de Ponto"
+
+#. module: account_statement_import_online_ponto
+#: model:ir.model.fields,field_description:account_statement_import_online_ponto.field_online_bank_statement_provider__ponto_token_expiration
+msgid "Ponto Token Expiration"
+msgstr "Caducidad del token de Ponto"
+
+#. module: account_statement_import_online_ponto
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_ponto.online_bank_statement_provider_form
+msgid "Reset Last identifier."
+msgstr "Restablecer el último identificador."
+
+#. module: account_statement_import_online_ponto
+#: model_terms:ir.ui.view,arch_db:account_statement_import_online_ponto.online_bank_statement_provider_form
+msgid "Secret Key"
+msgstr "Clave secreta (Client Secret)"

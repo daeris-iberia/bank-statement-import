@@ -1,0 +1,73 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_statement_import_camt54
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-13 05:35+0000\n"
+"PO-Revision-Date: 2022-10-13 07:44+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+
+#. module: account_statement_import_camt54
+#: model:ir.model,name:account_statement_import_camt54.model_account_statement_import_camt_parser
+msgid "Account Bank Statement Import CAMT parser"
+msgstr "Importar extracto de cuenta bancaria en formato CAMT"
+
+#. module: account_statement_import_camt54
+#: model:ir.model.fields,field_description:account_statement_import_camt54.field_account_journal__transfer_line
+msgid "Add balance Line"
+msgstr "Agregar línea de saldo"
+
+#. module: account_statement_import_camt54
+#: code:addons/account_statement_import_camt54/models/parser.py:0
+#, python-format
+msgid ""
+"Config parameter `isr_partner_ref` is wrong.\n"
+"It must be in format `i[,n]` \n"
+"`i` and `n` must be integers.\n"
+"e.g. \"13,6\""
+msgstr ""
+"El parámetro de configuración 'isr_partner_ref' es incorrecto.\n"
+"Debe estar en el formato 'i[,n]' \n"
+"'i' y 'n' deben ser enteros.\n"
+"por ejemplo, \"13,6\""
+
+#. module: account_statement_import_camt54
+#: code:addons/account_statement_import_camt54/models/parser.py:0
+#, python-format
+msgid ""
+"Config parameter `isr_partner_ref` is wrong.\n"
+"It must be in format `i[,n]` \n"
+"where `i` is the position of the first digit and\n"
+"`n` the number of digit in the reference, by default 6.\n"
+"e.g. \"13,6\""
+msgstr ""
+"El parámetro de configuración `isr_partner_ref` es incorrecto.\n"
+"Debe estar en el formato 'i[,n]' \n"
+"donde `i` es la posición del primer dígito y\n"
+"`n` el número de dígitos de la referencia, por defecto 6.\n"
+"por ejemplo, \"13,6\""
+
+#. module: account_statement_import_camt54
+#: model:ir.model.fields,help:account_statement_import_camt54.field_account_journal__transfer_line
+msgid "Generate balance line on total of bank statement import"
+msgstr "Generar línea de saldo sobre el total de importación de extractos bancarios"
+
+#. module: account_statement_import_camt54
+#: model:ir.model,name:account_statement_import_camt54.model_account_statement_import
+msgid "Import Bank Statement Files"
+msgstr "Importar extractos bancarios"
+
+#. module: account_statement_import_camt54
+#: model:ir.model,name:account_statement_import_camt54.model_account_journal
+msgid "Journal"
+msgstr "Diario"
